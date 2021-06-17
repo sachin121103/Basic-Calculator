@@ -37,6 +37,7 @@ def square_root(a):
       
 # print statements
 
+print("Hello. Welcome to my Calculator!")
 print("Select your operation:")
 print("1. Addition")
 print("2. Subtraction")
