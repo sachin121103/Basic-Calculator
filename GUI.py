@@ -8,7 +8,7 @@ class Calculator:
         master.title("Python Calculator")
 
 
-        self.screen = Text(master, state='disabled', width=30, height=3,background="yellow", foreground="blue")
+        self.screen = Text(master, state='disabled', width=30, height=3,background="#FEBE10", foreground="blue")
 
 
         self.screen.grid(row=0,column=0,columnspan=4,padx=5,pady=5)
