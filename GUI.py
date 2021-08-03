@@ -2,6 +2,7 @@ from tkinter import *
 import re
 import math
 
+#Define the calculator class
 class Calculator:
     def __init__(self, master):
         self.master = master
@@ -17,7 +18,7 @@ class Calculator:
 
         self.equation = ''
 
-
+        #Define the number, operator and backspace keys
         b1 = self.createButton(7)
         b2 = self.createButton(8)
         b3 = self.createButton(9)
